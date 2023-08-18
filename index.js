@@ -44,7 +44,6 @@ const puppeteer = require('puppeteer');
   await page.click('#queryform > div > div:nth-child(3) > div')
 
   // const element = await page.waitForSelector('#loginPanel > div > div.col-8 > form > table > tbody > tr:nth-child(2) > td > input');
-  // await element.type('123456aA');
   // await page.click('#submit');
   // await page.waitForNavigation();
   // await page.goto('http://zentao.whsmwy.cn/execution-story-22.html', {
